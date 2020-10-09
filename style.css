@@ -1,0 +1,213 @@
+#entete, #menu, #contenu, #footer {
+    padding:1px 0;
+    }
+
+    #entete {
+    background-color:rgb(153, 245, 173);
+    text-align:center;
+    height: 50px;
+    padding-top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    }
+
+    h1 {
+      text-align:center;
+      color: #000000;
+  }
+    .image1 {
+      float:left;
+      display: block;
+        width:300px;
+        background-color:#FF3366;
+        position: absolute;
+        min-height: 150px;
+    }
+    .image2 {
+      margin:10px; 
+      padding:0;
+      height: 120px;
+    }
+
+     .parg{
+      margin-left:400px;
+      min-height : 120px;
+
+     }
+
+     .parg2{
+      margin-inline-end: auto;
+      min-height : 150px;
+
+     }
+
+ .entete nav a{
+     list-style-type: none;
+     text-decoration: none;
+    cursor: crosshair;
+    
+    }
+    a {
+      text-decoration: none;
+      padding-left: 100px;
+      cursor: crosshair;
+      color: #020202;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+    
+  /*  nav{
+      position:fixed;
+			overflow:auto;
+			right:0px;
+			left:0px;
+			top:0px;
+			height:80px;
+	
+			background-color:rgb(153, 245, 173);
+      font-size:90%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+       }*/
+    
+
+    #main {
+    max-width:960px;
+    margin:auto;
+    position: relative;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: first baseline;
+        background-color: rgb(153, 245, 173);
+      }
+      
+      .flex-container > div {
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      .contenu {
+        display: flex;
+        flex-direction: column;
+        margin-left:245px;
+        background-color:#9966FF;
+        min-height : 150px;
+        }
+    #footer {
+    clear:both;
+    background-color: rgb(153, 245, 173);
+    text-align:center;
+    height: 50px;
+    padding-top: 20px;
+    }
+
+    .message{padding-bottom: 10px;}
+
+    .partie1{     
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(250, 190, 225);
+      }
+      .partie2{     
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(153, 245, 173);
+      }
+      .partie3{     
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(246, 248, 140);
+      }
+      .image3 {
+        float: right;
+          width:300px;
+          background-color:#FF3366;
+          position: relative;
+          min-height: 150px;
+      }
+  
+       .parg3{
+        margin-right:180px;
+        min-height : 120px;
+  
+       }
+
+       .image8{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          height: max-content;
+       }
+
+       .collaborateurs{
+          display: flex;
+          flex-wrap: wrap;
+          background-color: rgb(153, 245, 173);
+        }
+        
+        .collaborateurs > div {
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+
+
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        .icon{
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+        
+        #formulaire {
+          border-radius: 5px;
+          padding: 20px;
+        }
+        
+    #mobile-footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      overflow: hidden;
+  }
